@@ -9,9 +9,11 @@ Apply TF-IDF vectorization
 Implement Naïve Bayes classifier
 Manually verify conditional probabilities
 Evaluate using Precision, Recall, and F1-score
+
 📊 Dataset
 SMS Spam Collection Dataset (UCI Repository)
 ~5,500 labeled messages (Spam / Ham)
+
 ⚙️ Methodology
 Load dataset and visualize class distribution
 Perform text preprocessing
@@ -20,24 +22,29 @@ Apply CountVectorizer and TF-IDF
 Train Multinomial Naïve Bayes model
 Evaluate using metrics and confusion matrix
 Test on custom messages
+
 📈 Results
 Accuracy: ~97%
 High Precision & Recall
 Improved spam detection using Laplace smoothing
+
 📊 Visualizations
 Class distribution (Spam vs Ham)
 Top spam words
 Confusion matrix
 Precision-Recall curve
+
 🧪 Sample Predictions
 Message	Prediction
 Win money now!	Spam
 Hello friend	Ham
+
 🛠️ Technologies Used
 Python
 Pandas, NumPy
 Scikit-learn
 Matplotlib
+
 📁 Project Structure
 project/
 │
@@ -46,13 +53,16 @@ project/
 ├── report.docx
 ├── presentation.pptx
 └── README.md
+
 👨‍💻 Team Members
 Siraparapu Karthik
 Pitta Sri Charan
 Gone Bhagath
+
 📚 References
 UCI Machine Learning Repository
 Scikit-learn Documentation
+
 🚀 Conclusion
 
 The model effectively detects spam messages with high accuracy and demonstrates the efficiency of Naïve Bayes for text classification tasks.
